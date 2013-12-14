@@ -6,7 +6,7 @@ import java.util.Scanner;
  * This class provides static method for REPL
  * 
  * @author fluorine@github.com
- * @version 0.0.1 alpha
+ * @version 0.0.1
  */
 public class REPL {
 	static Scanner keyboard = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class REPL {
 	}
 
 	// Configuration //
-	static String prompt = " > ";
+	static String prompt = ": ";
 	static String indent = "   ";
 
 	/**
@@ -175,8 +175,8 @@ public class REPL {
 	 */
 	public static void main(String[] params) {
 		// REPL's configuration
-		REPL.setPrompt(": ");
-		REPL.setIndent("  ");
+		// REPL.setPrompt(": ");
+		// REPL.setIndent(" ");
 
 		// Asking for name
 		String name = REPL.getString("Write your name");

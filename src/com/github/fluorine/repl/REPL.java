@@ -143,7 +143,7 @@ public class REPL {
 				try {
 					numbers[i] = Integer.parseInt(tokens[i]);
 				} catch (NumberFormatException e) {
-					System.out.println(indent + "There are invalues values. "
+					System.out.println(indent + "There are invalid values. "
 							+ "All values must be Integers.\n");
 					failure = true;
 					break;

@@ -7,7 +7,7 @@ How to use
 ==========
 You have to add the *.jar into the project's path, and then import it:
 
-    import com.github.fluorine.repl.*;
+    import javarepl.*;
 
 You can use any JavaREPL's utility methods through the `REPL` identifier. For example:
 

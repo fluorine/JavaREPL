@@ -7,7 +7,7 @@ How to use
 ==========
 You have to add the *.jar into the project's path, and then import it:
 
-    import javarepl.*;
+    import javarepl.REPL;
 
 You can use any JavaREPL's utility methods through the `REPL` identifier. For example:
 
